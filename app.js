@@ -114,7 +114,7 @@ function celsiusVsFarenheit() {
 
 // URL (required), options (optional)
 async function getWeather() {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${citySearch}&units=${celsiusVsFarenheit()}&appid=b16ba561812b8249a766aa53f4c50234`, {
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${citySearch}&units=${celsiusVsFarenheit()}&appid=b16ba561812b8249a766aa53f4c50234`, {
         mode: 'cors'
     });
     const data = await response.json();
