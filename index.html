@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPI</title>
+    <link rel="stylesheet" href="app.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto:wght@500&display=swap');
+    </style>
+</head>
+
+<body>
+    <h2 id="location"> Budapest</h2>
+    <form id="form">
+        <label for="q">Enter your location here...</label>
+        <input type="search" id="query" name="q" placeholder="Search...">
+    </form>
+    <br>
+    <div class="temperature">
+        <p>°C</p>
+        <label class="switch">
+
+            <input type="checkbox" id="temperature-value">
+
+            <span class="slider"></span>
+        </label>
+        <p>°F</p>
+    </div>
+    <div id="weather">
+        <div>
+            <img id="weather-img" src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+            <p id="city-data__temperature"></p>
+            <p id="weather-description"></p>
+        </div>
+
+        <div class="city-data">
+            <ul>
+                <li id="city-data__feels"></li>
+                <li id="city-data__humidity"></li>
+            </ul>
+        </div>
+
+        <div id="thermo" class="backboard">
+            <p id="loading">-</p>
+            <div class="tube">
+            </div>
+            <div class="bowl">
+            </div>
+        </div>
+    </div>
+    <br>
+    <button id="change">Search</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
