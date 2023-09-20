@@ -20,7 +20,7 @@ You can view the live demo of this project [--> Here <--](https://ggab13.github.
 ## Features
 
 - Current weather data: Retrieve current weather information for a specific location, including temperature, humidity, and weather conditions.
-- Keep track of the game score.
+
 
 
 ## Installation 
