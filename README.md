@@ -34,4 +34,7 @@ git clone https://github.com/ggab13/weather-api.git
 ```sh
  cd weather-api  
  ```
-3. - Open the index.html file in your web browser to play the game.
+3. - Open the index.html file in your web browser.
+  ```sh
+ start index.html  
+ ```
